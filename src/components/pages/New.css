@@ -1,0 +1,66 @@
+.homecard{
+    content: "";
+   height:400px;
+   box-shadow: 5px 5px 14px whitesmoke;
+   background-color:red;
+}
+.homecard::after{
+    content: "";
+
+    position:absolute;
+    top: 0;
+    bottom: 0;left: 0;right: 0;
+    background-color: #0ee515;
+    opacity: 0.4;
+}
+.homecard::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;left: 0;right: 0;background-color: #ffc3c1;
+    opacity: 0.3;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.4s;
+}
+.homecard:hover::before{
+    transform: scaleX(1);
+  
+    
+}
+.homedata{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    color:rgb(255, 255, 255);
+    padding:2em;
+    bottom:10%;
+    left: 15%;
+    z-index:5;
+    gap:1em;
+    transition:all 0.4s;
+}
+.homecard:hover .homedata{
+    transform:scale(1.2);
+   
+}
+.slide-left{
+   
+    transform: scaleX(0);
+    text-align: center;
+    transition: all 0.8s;
+    transform-origin: right;
+}
+.slide-right{
+  text-align: center;
+    transform: scaleX(0);
+    transition: all 0.8s;
+    transform-origin: left;
+   
+}
+.alpha:hover .slide-right{
+    transform: scaleX(1);
+}
+.alpha:hover .slide-left{
+    transform: scaleX(1);
+}

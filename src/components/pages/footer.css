@@ -1,0 +1,26 @@
+.text{
+  
+    position: relative;
+
+}
+.text::after{
+    content: '|';
+    position: absolute;
+    right: -2px;
+    bottom: -10px;
+    color:rgb(56 189 248);
+background-color: rgb(56, 189, 248);
+    width: 101%;
+    height: 101%;
+   
+}
+.body:hover .text::after{
+    animation: typing 3s steps(17) forwards;
+   
+  
+}
+@keyframes typing {
+    to{
+    width: 0%;
+    }
+}

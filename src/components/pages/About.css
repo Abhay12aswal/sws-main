@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+.body{
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+  
+    position: relative;
+
+}
+.text1::after{
+    content: '|';
+    position: absolute;
+    right: -1px;
+    color:rgb(0, 0, 0);
+   background-color: rgb(221, 255, 249);
+    width: 100%;
+   
+}
+.body1:hover .text1::after{
+    animation: typing 3s steps(17) forwards;
+   
+  
+}
+@keyframes typing {
+    to{
+    width: 0%;
+    }
+}
+.slide-left{
+   
+    transform: scaleX(0);
+    transition: all 0.8s;
+    transform-origin: right;
+}
+.slide-right{
+
+    transform: scaleX(0);
+    transition: all 0.8s;
+    
+    transform-origin: left;
+   
+}
+.second:hover .slide-left{
+  
+    transform: scale(1);
+}
+
+.second:hover .slide-right{
+    transform: scale(1);
+}
+
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
