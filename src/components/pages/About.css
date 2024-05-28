@@ -93,3 +93,21 @@
     border: none;
     cursor: pointer;
   }
+
+
+::-webkit-scrollbar {
+    width:5px;
+    height: 5px;
+     /* Adjust the width as needed */
+  }
+
+  /* Handle styles */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(85, 201, 251); /* Adjust handle color if needed */
+    border-radius: 9999px; /* Rounded handle */
+  }
+
+  /* Handle hover styles */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:rgb(27, 185, 253); /* Adjust handle hover color if needed */
+  }

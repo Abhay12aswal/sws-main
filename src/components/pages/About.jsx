@@ -26,15 +26,15 @@ const About = () => {
   };
 
   return (
-    <div className=' body1 flex mt-20 flex-col w-full   items-center bg-cover bg=center gap-10'
+    <div className=' body1 flex mt-20 flex-col w-full  h-fit  items-center bg-contain  bg-repeat-y gap-10 overflow-x-hidden'
     style={{backgroundImage:`url(${bg})`}}>
       <div className='header h-20 pb-20 mt-5 w-auto bg-transparent text-6xl sm:text-7xl md:text-8xl font-serif'>
         About Us
       </div>
 
-      <div className='text1 text-xl sm:text-xl md:text-2xl  lg:text-4xl w-auto italic text-violet-800'>from the Director</div>
+      <div className=' text-xl sm:text-xl md:text-2xl  lg:text-4xl w-auto italic text-violet-800'>from the Director</div>
 
-      <div className="flex flex-col h-auto md:flex-row w-10/12 md:flex-1 mb-20 gap-5">
+      <div className="flex flex-col h-auto lg:flex-row w-11/12 md:flex-1 mb-20 gap-5">
         <div className='flex flex-col h-auto w-full'>
           <div className='h-auto w-auto text-center bg-opacity-5 bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
             "Protecting nature is not just a choice; it's our responsibility. Together, let's safeguard our planet for a sustainable future."
@@ -46,19 +46,19 @@ const About = () => {
           </div>
         </div>
 
-        <div className='w-full flex md:items-center justify-center md:w-2/4'>
-          <div className='h-64 w-2/4 md:w-full md:items-center'>
+        <div className='w-9/12 md:w-3/5 flex md:items-center justify-center self-center lg:w-3/6 '>
+          <div className='h-64 w-full  md:items-center'>
             <Carousel />
           </div>
         </div>
       </div>
 
-      <div className='h-auto w-full flex flex-col items-center second gap-20'>
+      <div className='h-auto w-full flex flex-col items-center second gap-5 lg:gap-20'>
        
 
-        <div className='h-auto w-10/12 flex flex-col'>
-          <div className='w-full flex h-72 gap-5'>
-            <div className='h-auto w-3/6 md:w-3/6 lg:w-3/6'>
+        <div className='h-60  w-10/12 flex flex-col'>
+          <div className='w-full flex h-full gap-5'>
+            <div className='h-44 self-center sm:h-44 md:h-52 lg:h-64 sm:w-1/3 w-2/4'>
               <img
                 src={image2}
                 className='h-full w-full rounded-3xl cursor-pointer'
@@ -66,28 +66,26 @@ const About = () => {
                 onClick={() => openModal(image2)}
               />
             </div>
-            <div className='slide-left flex flex-col flex-wrap w-3/6 md:w-3/6 lg:w-4/6 text-center justify-center overflow-x-auto  bg-opacity-5 bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
-              kjfkdbfdkjfbsdkfbdskfbkdjsbfjksdbfkdsjbfkd
-              bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklahsafkd
-              slsdkdshdhdsfhhdhfhdshfdhhksdkljfhsdkfhdhfsd
-              hfsdhfhskjldfhklsjfhskljfhsklfjskdlhfskldjs
-              fhskldfhklsdjhfklsjhfkljshfklsjhfklshfklshfk
-              jsdhfksdjfjksdhfkjdshfkjsdjkfsdfsdhfjkfhsd
+            <div className=' flex flex-col sm:w-2/3 w-2/4 h-full justify-center  bg-opacity-0 
+            bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
+            <p className='w-full m-0 p-0 overflow-x-auto text-center '>
+              kjfkdbfdkjfbsdkfbdskfbkdjsbfjksdbfkdsjbfkd  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah
+              bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklahsafkd  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah
+            </p>
             </div>
           </div>
         </div>
 
-        <div className='h-auto w-10/12 flex flex-col'>
-          <div className='w-full flex h-72 gap-5'>
-            <div className='slide-right flex flex-col flex-wrap w-3/6 md:w-3/6 lg:w-4/6 text-center justify-center overflow-x-auto  bg-opacity-5 bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
-              kjfkdbfdkjfbsdkfbdskfbkdjsbfjksdbfkdsjbfkd
-              bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklahsafkd
-              slsdkdshdhdsfhhdhfhdshfdhhksdkljfhsdkfhdhfsd
-              hfsdhfhskjldfhklsjfhskljfhsklfjskdlhfskldjs
-              fhskldfhklsdjhfklsjhfkljshfklsjhfklshfklshfk
-              jsdhfksdjfjksdhfkjdshfkjsdjkfsdfsdhfjkfhsd
+        <div className='h-60 w-10/12 flex flex-col'>
+          <div className='w-full flex h-full gap-5'>
+          <div className=' flex flex-col sm:w-2/3 w-2/4 h-full justify-center  bg-opacity-0 
+            bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
+            <p className='w-full m-0 p-0 overflow-x-auto text-center'>
+              kjfkdbfdkjfbsdkfbdskfbkdjsbfjksdbfkdsjbfkd  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah
+              bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklahsafkd  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah
+            </p>
             </div>
-            <div className='h-auto w-3/6 md:w-3/6 lg:w-3/6'>
+            <div className='h-44 self-center sm:h-44 md:h-52 lg:h-64 sm:w-1/3 w-2/4'>
               <img
                 src={image2}
                 className='h-full w-full rounded-3xl cursor-pointer'
@@ -98,9 +96,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className='h-auto w-10/12 flex flex-col'>
-          <div className='w-full flex h-72 gap-5'>
-            <div className='h-auto w-3/6 md:w-3/6 lg:w-3/6'>
+        <div className='h-60  w-10/12 flex flex-col'>
+          <div className='w-full flex h-full gap-5'>
+            <div className='h-44 self-center sm:h-44 md:h-52 lg:h-64 sm:w-1/3 w-2/4'>
               <img
                 src={image2}
                 className='h-full w-full rounded-3xl cursor-pointer'
@@ -108,13 +106,12 @@ const About = () => {
                 onClick={() => openModal(image2)}
               />
             </div>
-            <div className='slide-left flex flex-col flex-wrap w-3/6 md:w-3/6 lg:w-4/6 text-center justify-center overflow-x-auto  bg-opacity-5 bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
-              kjfkdbfdkjfbsdkfbdskfbkdjsbfjksdbfkdsjbfkd
-              bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklahsafkd
-              slsdkdshdhdsfhhdhfhdshfdhhksdkljfhsdkfhdhfsd
-              hfsdhfhskjldfhklsjfhskljfhsklfjskdlhfskldjs
-              fhskldfhklsdjhfklsjhfkljshfklsjhfklshfklshfk
-              jsdhfksdjfjksdhfkjdshfkjsdjkfsdfsdhfjkfhsd
+            <div className=' flex flex-col sm:w-2/3 w-2/4 h-full justify-center  bg-opacity-0
+            bg-white backdrop-filter backdrop-blur-sm rounded-xl'>
+            <p className='w-full m-0 p-0 overflow-x-auto text-center'>
+              kjfkdbfdkjfbsdkfbdskfbkdjsbfjksdbfkdsjbfkd  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah
+              bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklahsafkd  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah  bfkbfjkbfdslkjffdsdlkshfhkldsahkdshklah
+            </p>
             </div>
           </div>
         </div>
