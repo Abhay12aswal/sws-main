@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Foot from './components/pages/footer'
 
 const Navbar = React.lazy(()=>import("./components/Navbar"))
 const About = React.lazy(()=> import("./components/pages/About"))

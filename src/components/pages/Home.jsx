@@ -1,5 +1,4 @@
 import React from 'react'
-import {  AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 import './home.css'
 import Carousel from './Carousel.jsx'
 import Blue from '../../assets/icons/bluebubble.png'
@@ -32,6 +31,8 @@ import img10 from '../../assets/gallery/img10.jpg'
 import img11 from '../../assets/gallery/img11.jpg'
 import Foot from './footer'
 
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -51,7 +52,7 @@ const Home = () => {
               <div className='w-full italic text- text-white'>
                 We are dedicated to making a difference in the lives of people through our various initiatives.
               </div>
-              <button className='btn-pin'>Learn More</button>
+              <Link to={'/about'} className='btn-pin'>Learn More</Link>
             </div>
           </div>
         </div>
@@ -238,7 +239,7 @@ const Home = () => {
 Beginning with a visit to an ashram in Haridwar, the children participate in the Holy Ganga Aarti, a deeply spiritual and culturally significant experience. This likely provided them not only with a sense of belonging but also a chance to engage with their spirituality in a meaningful way.
 </p>
           </div>
-          <button className='btn-pin3 self-end mt-1.5'>Know More</button>
+          <Link to={'/events'} className='btn-pin3 self-end mt-1.5'>Know More</Link>
         </div>
       </div>
       </div>
@@ -262,7 +263,7 @@ Over two months, these selected participants received rigorous training in vario
 </p>
 
           </div>
-          <button className='btn-pin3 self-end mt-1.5'>Know More</button>
+          <Link to={'/events'} className='btn-pin3 self-end mt-1.5'>Know More</Link>
         </div>
       </div>
       </div>
@@ -284,7 +285,7 @@ Over two months, these selected participants received rigorous training in vario
 </p>
 
           </div>
-          <button className='btn-pin3 self-end mt-1.5'>Know More</button>
+          <Link to={'/events'} className='btn-pin3 self-end mt-1.5'>Know More</Link>
         </div>
       </div>
       </div>
@@ -376,12 +377,6 @@ Over two months, these selected participants received rigorous training in vario
 
 
   <Foot></Foot>
-
-
-
-
-
-
 </div>
 
     

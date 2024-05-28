@@ -29,9 +29,7 @@ const Event = () => {
         <Carousel></Carousel>
       </div>
       <div className='w-2/4 bg-transparent h-4/5 self-center text-center text-[10px] sm:text-sm md:text-sm lg:text-base xl:text-xl flex flex-col  justify-center gap-2 '>
-      <p>fbjkdgfjdbfd
-      jkddjkfklghfudhsgf
-      flkdfhsdkfhkd;
+      <p>Ths is first event click on know more for detail explanations
     </p>
     <button className='btn self-center p-1 sm:p-1.5 lg:p-2.5 ' onClick={() => openModal('Event 1 Sure, here is a randomly generated text of 100 words Once upon a time in a small village nestled between rolling hills and verdant forests, there was a curious child named Luna. She loved exploring the hidden corners of her world, from the sparkling river that twisted through the valley to the ancient oak tree that stood like a guardian at the edge of the forest. One day, Luna discovered a hidden path covered in moss and flowers. As she followed it, she found a secret garden filled with vibrant blooms and fluttering butterflies. In the center was a crystal-clear pond, reflecting the sky. Luna felt like she had discovered a magical place that belonged to her alone.')}>know-more</button>
       </div>
@@ -41,9 +39,7 @@ const Event = () => {
         <Carousel></Carousel>
       </div>
       <div className='w-2/4 bg-transparent h-4/5 self-center text-center text-[10px] sm:text-sm md:text-sm lg:text-base xl:text-xl flex flex-col  justify-center gap-2 '>
-      <p>fbjkdgfjdbfd
-      jkddjkfklghfudhsgf
-      flkdfhsdkfhkd;
+      <p>Ths is first event click on know more for detail explanations
     </p>
     <button className='btn self-center p-1 sm:p-1.5 lg:p-2.5 ' onClick={() => openModal('Event 1 Sure, here is a randomly generated text of 100 words Once upon a time in a small village nestled between rolling hills and verdant forests, there was a curious child named Luna. She loved exploring the hidden corners of her world, from the sparkling river that twisted through the valley to the ancient oak tree that stood like a guardian at the edge of the forest. One day, Luna discovered a hidden path covered in moss and flowers. As she followed it, she found a secret garden filled with vibrant blooms and fluttering butterflies. In the center was a crystal-clear pond, reflecting the sky. Luna felt like she had discovered a magical place that belonged to her alone.')}>know-more</button>
       </div>
@@ -57,9 +53,7 @@ const Event = () => {
         <Carousel></Carousel>
       </div>
       <div className='w-2/4 bg-transparent h-4/5 self-center text-center text-[10px] sm:text-sm md:text-sm lg:text-base xl:text-xl flex flex-col  justify-center gap-2 '>
-      <p>fbjkdgfjdbfd
-      jkddjkfklghfudhsgf
-      flkdfhsdkfhkd;
+      <p>Ths is first event click on know more for detail explanations
     </p>
     <button className='btn self-center p-1 sm:p-1.5 lg:p-2.5 ' onClick={() => openModal('Event 1 Sure, here is a randomly generated text of 100 words Once upon a time in a small village nestled between rolling hills and verdant forests, there was a curious child named Luna. She loved exploring the hidden corners of her world, from the sparkling river that twisted through the valley to the ancient oak tree that stood like a guardian at the edge of the forest. One day, Luna discovered a hidden path covered in moss and flowers. As she followed it, she found a secret garden filled with vibrant blooms and fluttering butterflies. In the center was a crystal-clear pond, reflecting the sky. Luna felt like she had discovered a magical place that belonged to her alone.')}>know-more</button>
       </div>
@@ -69,9 +63,7 @@ const Event = () => {
         <Carousel></Carousel>
       </div>
       <div className='w-2/4 bg-transparent h-4/5 self-center text-center text-[10px] sm:text-sm md:text-sm lg:text-base xl:text-xl flex flex-col  justify-center gap-2 '>
-      <p>fbjkdgfjdbfd
-      jkddjkfklghfudhsgf
-      flkdfhsdkfhkd;
+      <p>Ths is first event click on know more for detail explanations
     </p>
     <button className='btn self-center p-1 sm:p-1.5 lg:p-2.5 ' onClick={() => openModal('Event 1 Sure, here is a randomly generated text of 100 words Once upon a time in a small village nestled between rolling hills and verdant forests, there was a curious child named Luna. She loved exploring the hidden corners of her world, from the sparkling river that twisted through the valley to the ancient oak tree that stood like a guardian at the edge of the forest. One day, Luna discovered a hidden path covered in moss and flowers. As she followed it, she found a secret garden filled with vibrant blooms and fluttering butterflies. In the center was a crystal-clear pond, reflecting the sky. Luna felt like she had discovered a magical place that belonged to her alone.')}>know-more</button>
       </div>
@@ -85,9 +77,7 @@ const Event = () => {
         <Carousel></Carousel>
       </div>
       <div className='w-2/4 bg-transparent h-4/5 self-center text-center text-[10px] sm:text-sm md:text-sm lg:text-base xl:text-xl flex flex-col  justify-center gap-2 '>
-      <p>fbjkdgfjdbfd
-      jkddjkfklghfudhsgf
-      flkdfhsdkfhkd;
+      <p>Ths is first event click on know more for detail explanations
     </p>
     <button className='btn self-center p-1 sm:p-1.5 lg:p-2.5'onClick={() => openModal('Event 1 Sure, here is a randomly generated text of 100 words Once upon a time in a small village nestled between rolling hills and verdant forests, there was a curious child named Luna. She loved exploring the hidden corners of her world, from the sparkling river that twisted through the valley to the ancient oak tree that stood like a guardian at the edge of the forest. One day, Luna discovered a hidden path covered in moss and flowers. As she followed it, she found a secret garden filled with vibrant blooms and fluttering butterflies. In the center was a crystal-clear pond, reflecting the sky. Luna felt like she had discovered a magical place that belonged to her alone.')}>know-more</button>
       </div>
@@ -97,9 +87,7 @@ const Event = () => {
         <Carousel></Carousel>
       </div>
       <div className='w-2/4 bg-transparent h-4/5 self-center text-center text-[10px] sm:text-sm md:text-sm lg:text-base xl:text-xl flex flex-col  justify-center gap-2 '>
-      <p>fbjkdgfjdbfd
-      jkddjkfklghfudhsgf
-      flkdfhsdkfhkd;
+      <p>Ths is first event click on know more for detail explanations
     </p>
     <button className='btn self-center p-1 sm:p-1.5 lg:p-2.5 ' onClick={() => openModal('Event 1 Sure, here is a randomly generated text of 100 words Once upon a time in a small village nestled between rolling hills and verdant forests, there was a curious child named Luna. She loved exploring the hidden corners of her world, from the sparkling river that twisted through the valley to the ancient oak tree that stood like a guardian at the edge of the forest. One day, Luna discovered a hidden path covered in moss and flowers. As she followed it, she found a secret garden filled with vibrant blooms and fluttering butterflies. In the center was a crystal-clear pond, reflecting the sky. Luna felt like she had discovered a magical place that belonged to her alone.')}>know-more</button>
       </div>
@@ -110,7 +98,7 @@ const Event = () => {
     </div>
  
    
-    <div className='w-full h-auto mb-2 sw:mb-3 md:mb-4 lg:mb-7 xl:mb-10   text-lg sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl  pr-5 text-right'>"Privartan hi jeevan ka satya hai"</div>
+    <div className='w-full h-auto mb-2 sw:mb-3 md:mb-4 lg:mb-7 xl:mb-10   text-lg sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl  pr-5 text-center'>"Privartan hi jeevan ka satya hai"</div>
 
 
    

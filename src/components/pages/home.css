@@ -9,9 +9,8 @@
         width: fit-content;
         color:black;
         background-color: rgb(12, 237, 162);
-        padding: 0.8rem 2.3rem;
+        padding: 0.5rem 0.8rem;
        border-radius: 10px;
-        font-size: 18px;
         cursor: pointer;
         transition: all 0.2s;
         font-weight: 500;
