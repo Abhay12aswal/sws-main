@@ -1,26 +1,31 @@
-/* styles.css or your main CSS file */
-.nav-link {
-    position: relative;
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: darkblue;
-    transition: width 0.2s ease, right 0.2s ease;
-  }
-  
-  .nav-link:hover::after {
-    width: 100%;
-    right: 0;
-  }
-  
 
+.nav-link {
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: darkblue;
+  transition: width 0.2s ease, right 0.2s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  right: 0;
+  animation: bounce_613 0.4s linear;
+}
+
+/* Active Link Style */
+.nav-link.active {
+  font-weight: bold;
+  color: darkblue;
+}
