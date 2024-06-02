@@ -4,24 +4,24 @@ import React, { useState, useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
-import image1 from '../../assets/Carousel/img1.png';
+import image1 from '../../assets/gallery/yoga.jpg';
+import image2 from '../../assets/gallery/yg.jpg';
+import image3 from '../../assets/gallery/yg2.jpg';
 
-import image3 from '../../assets/Carousel/img4.png';
-import image4 from '../../assets/Carousel/img5.png';
 
 
-const Carousel = () => {
+const Carouselyg = () => {
   const slides = [
     {
       url: image1,
     },
-   
+    {
+      url: image2,
+    },
     {
       url: image3,
     },
-    {
-      url: image4,
-    },
+    
 
   ];
 
@@ -74,4 +74,4 @@ const Carousel = () => {
   );
 }
 
-export default Carousel;
+export default Carouselyg;

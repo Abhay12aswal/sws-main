@@ -1,73 +1,75 @@
+// import React, { useEffect } from 'react';
+// import mapboxgl from 'mapbox-gl';
+// import './Contact.css';
+// import Foot from './footer';
+
+// const Contact = () => {
+//   return (
+//     <>
+//       <div className='main h-full w-full my-16 xl:my-24 flex flex-col  gap-20 pt-20'>
+//         <div className="card self-center w-10/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 h-[450px] sm:h-[550px]">
+//           <div className="background flex flex-col space-y-2 sm:space-y-2 justify-center">
+//             <div className=' text-white text-left pl-0 sm:pl-20 h-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 self-center sm:self-start text-6xl sm:text-6xl  lg:text-7xl mb-5'>Contact Us</div>
+//             <div className='hide text-white w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 self-center  text-xl sm:text-3xl  '>
+//               <p>Ad: House no 183, Sirmour tea estate marg, Kaulagarh road, Kishen Nagar, Dehradun, Uttarakhand - 248001</p>
+//               <p>Mobile No: 8954757925, 8191995014</p>
+//               <p className='break-words'>Email ID: samarpitmediasociety@gmail.com</p>
+//             </div>
+//             <button className='btn-pin self-center hide text-sm md:text-lg'>Follow Us</button>
+//           </div>
+//           <div className="logo">SWS</div>
+
+//           <div className="box box1">
+//             <span className="icon">
+//               <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" className="svg">
+//                 <path d="M224.1 141c-63.6 0-115 51.4-115 115s51.4 115 115 115 115-51.4 115-115-51.4-115-115-115zm0 190c-41.3 0-75-33.7-75-75s33.7-75 75-75 75 33.7 75 75-33.7 75-75 75zm146.4-194.1c0 14.9-12.1 27-27 27s-27-12.1-27-27 12.1-27 27-27 27 12.1 27 27zm76.1 27.2c-1.7-35.7-9.9-67.3-36.2-92.6s-56.9-34.5-92.6-36.2C277.4 32 194.6 32 110.6 34.3c-35.7 1.7-67.3 9.9-92.6 36.2s-34.5 56.9-36.2 92.6C-32 194.6-32 277.4 34.3 361.4c1.7 35.7 9.9 67.3 36.2 92.6s56.9 34.5 92.6 36.2c84 2.3 166.8 2.3 250.8 0 35.7-1.7 67.3-9.9 92.6-36.2s34.5-56.9 36.2-92.6c2.3-84 2.3-166.8 0-250.8zM398.8 388.3c-7.8 19.6-22.9 34.7-42.5 42.5-29.4 11.7-99.2 9-132.3 9s-102.9 2.6-132.3-9c-19.6-7.8-34.7-22.9-42.5-42.5-11.7-29.4-9-99.2-9-132.3s-2.6-102.9 9-132.3c7.8-19.6 22.9-34.7 42.5-42.5 29.4-11.7 99.2-9 132.3-9s102.9-2.6 132.3 9c19.6 7.8 34.7 22.9 42.5 42.5 11.7 29.4 9 99.2 9 132.3s2.6 102.9-9 132.3z"></path>
+//               </svg>
+//             </span>
+//           </div>
+//           <div className="box box2">
+//             <span className="icon">
+//               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="svg">
+//                 <path d="M9.197 21.027h3.95v-6.007h2.664l.398-3.078h-3.062v-1.962c0-.891.248-1.498 1.533-1.498l1.639-.001v-2.77c-.284-.038-1.257-.122-2.392-.122-2.368 0-3.992 1.447-3.992 4.102v2.251h-2.682v3.078h2.682v6.007z"></path>
+//               </svg>
+//             </span>
+//           </div>
+//           <div className="box box3">
+//             <span className="icon">
+//               <svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" className="svg">
+//                 <path d="M549.655 124.083c-6.281-23.632-24.807-42.19-48.451-48.481-42.774-11.448-213.206-11.448-213.206-11.448s-170.432 0-213.206 11.448c-23.644 6.291-42.17 24.849-48.451 48.481C0 160.856 0 256 0 256s0 95.144 26.341 131.917c6.281 23.632 24.807 42.19 48.451 48.481 42.774 11.448 213.206 11.448 213.206 11.448s170.432 0 213.206-11.448c23.644-6.291 42.17-24.849 48.451-48.481C576 351.144 576 256 576 256s0-95.144-26.345-131.917zM231.81 338.133v-165.3l142.73 82.658-142.73 82.642z"></path>
+//               </svg>
+//             </span>
+//           </div>
+//         </div>
+//       </div>
+//       <Foot />
+//     </>
+//   );
+// }
+
+// export default Contact;
+
+
 import React, { useEffect } from 'react';
 import mapboxgl from 'mapbox-gl';
 import './Contact.css';
 import Foot from './footer';
 
 const Contact = () => {
-  useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZGVsdGEtc3R1ZHVlbnQiLCJhIjoiY2xvMDk0MTVhMTJ3ZDJrcGR5ZDFkaHl4ciJ9.Gj2VU1wvxc7rFVt5E4KLOQ';
-    //mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
-
-    const map = new mapboxgl.Map({
-      container: 'map', // container ID
-      style: 'mapbox://styles/mapbox/satellite-streets-v12', // style URL
-      center: [-2.81361, 36.77271], // starting position [lng, lat]
-      zoom: 13 // starting zoom
-    });
-
-    const layerList = document.getElementById('menu');
-    const inputs = layerList.getElementsByTagName('input');
-
-    for (const input of inputs) {
-      input.onclick = (layer) => {
-        const layerId = layer.target.id;
-        map.setStyle('mapbox://styles/mapbox/' + layerId);
-      };
-    }
-  }, []);
 
   return (
-    <>
-
-
-<div className='main h-auto w-full my-16 xl:my-24 flex flex-col  gap-20'>
+<>
+<div className='main h-full w-full my-16 xl:my-24 flex flex-col pt-20 gap-20'>
    
-    /////mappppppppppppppphaiye                      
-
-
-    <div className='w-11/12 h-96  mt-2 self-center'>
-      <div id="map" style={{ position: 'absolute', top: 0, bottom: 0, width: '100%' }}></div>
-      <div id="menu" style={{ position: 'absolute', background: '#efefef', padding: '10px', fontFamily: 'Open Sans, sans-serif' }}>
-        <input id="satellite-streets-v12" type="radio" name="rtoggle" value="satellite" defaultChecked="checked" />
-        <label htmlFor="satellite-streets-v12">satellite streets</label>
-        <input id="light-v11" type="radio" name="rtoggle" value="light" />
-        <label htmlFor="light-v11">light</label>
-        <input id="dark-v11" type="radio" name="rtoggle" value="dark" />
-        <label htmlFor="dark-v11">dark</label>
-        <input id="streets-v12" type="radio" name="rtoggle" value="streets" />
-        <label htmlFor="streets-v12">streets</label>
-        <input id="outdoors-v12" type="radio" name="rtoggle" value="outdoors" />
-        <label htmlFor="outdoors-v12">outdoors</label>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
-  ////////////////card////////////
-
-    <div className="card self-center w-10/12  sm:w-9/12 md:w-3/5 lg:w-8/12 xl:w-7/12 h-96 lg:h-[550px]">
-      <div className="background flex flex-col gap-10 sm:gap-7 md:gap-12 lg:gap-16">
-       <div className=' text-white h-auto w-9/12 self-center text-5xl sm:text-6xl  lg:text-7xl xl:text-7xl 2xl:text-7xl'>Contact Us</div>
-       <div className='hide text-white w-auto self-center  text-lg sm:text-2xl md:text-2xl lg:text-3xl  '><p>Ad:Ganesh Vihar Padampue Kotdwara</p>
-       <p>ph-n0 9798797</p>
-       <p>E-mail jhjhvbjjbjb</p></div>
-       <button className='btn-pin self-center hide'>follow Us</button>
+<div className="card self-center w-10/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 h-[450px] sm:h-[550px]">
+  <div className="background flex flex-col space-y-2 sm:space-y-2 justify-center">
+    <div className=' text-white hide text-left pl-0 sm:pl-20 h-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 self-center sm:self-start text-6xl sm:text-6xl  lg:text-7xl mb-5'>Contact Us</div>
+    <div className='hide text-white w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 self-center  text-xl sm:text-3xl '><p>Ad:House no 183, Sirmour tea estate marg, Kaulagarh road, Kishen Nagar, 
+Dehradun,Uttarakhand - 248001
+</p>
+       <p>MobileNo:8954757925, 8191995014</p>
+       <p className='break-words'>EmailID:samarpitmediasociety@gmail.com</p></div>
+       <button className='btn-pin self-center hide text-sm md:text-lg'>follow Us</button>
       </div>
       <div className="logo ">
        SWS
@@ -79,7 +81,7 @@ const Contact = () => {
             <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
           </svg>
         </span>
-      </div>
+      </div>          
       <div className="box box2">
         <span className="icon">
           <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" className="svg">
@@ -96,8 +98,9 @@ const Contact = () => {
       </div>
       <div className="box box4"></div>
     </div>
+    <Foot></Foot>
     </div>
-    <Foot/>
+     
     </>
   )
 }

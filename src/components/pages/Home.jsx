@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './home.css'
 import Carousel from './Carousel.jsx'
@@ -119,6 +120,13 @@ const Home = () => {
                    </div>
                    <div className='slide-right w-full text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl text-rose-800 italic text-center pt-5'>~ Together for change</div>
                 </div>
+                {/* <div className='bg-transparent relative w-6/12 flex flex-col justify-center items-center '>
+                <div className='relative bg-transparent w-3/5'>
+                <img src={image2}className='w-full h-full rounded-3xl '></img>
+                  
+                   </div>
+                   <div className='bg-transparent w-full text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-5'>from the Director</div>
+                </div> */}
                 <div className='w-6/12 flex flex-col justify-between relative  bg-transparent'>
                 
                 <div className='bg-transparent flex justify-center h-full relative w-full text-left  z-10'>{/*pt-12  pl-28*/}
@@ -142,6 +150,8 @@ const Home = () => {
                   <div className=' w-24 rounded-full animate-bounce-medium'>
                   <img src={orange} className='rounded-full w-full '></img>
                   </div>
+                 
+
                </div> 
                 </div>
                 
